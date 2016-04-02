@@ -1,0 +1,45 @@
+{
+    "name":        "jossius/simplycurl",
+    "version":     "1.0.0",
+    "type":        "library",
+    "description": "SimplyCurl is a PHP HTTP client library",
+    "keywords": [
+        "SimplyCurl", 
+        "framework", 
+        "http", 
+        "rest", 
+        "web service", 
+        "curl", 
+        "client", 
+        "HTTP client"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "Jossius",
+            "email":    "info@jossius.com",
+            "homepage": "https://github.com/jossius",
+            "role":     "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimplyCurl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimplyCurl\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
